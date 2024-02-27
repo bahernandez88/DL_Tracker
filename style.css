@@ -1,0 +1,102 @@
+.flex{
+	display:flex;
+	
+}
+div.flex>label{
+	width: 7%;
+	text-align: right;
+	padding-right:1%;
+}
+
+.hide{
+	display:none;
+
+
+}
+
+.unhide{
+	display: table-row!important;
+
+
+}
+
+body>div{
+	display:block;
+	margin:0px auto;
+	width: fit-content;
+	/*	width: 30%;*/
+	border: 5px inset purple;
+	background-color: white;
+	color: rgba(144,21,136,1) ;
+	/* box-shadow:  1em 1em .4em black, -1em 0 .4em black; */
+border-radius: 5px;
+
+
+}
+body{
+	background: rgb(0,0,0);
+	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(144,21,136,1) 50%, rgba(255,255,255,1) 100%);
+
+}
+
+button{
+	width: 25%;
+	background-color: white;
+	color: rgba(144,21,136,1);
+	font-size: 2rem;
+	border: 5px ridge purple;
+	border-radius: 5px;
+	display:block;
+	margin: 0px auto;
+}
+
+.underline{
+	text-decoration: underline;
+
+}
+td, th{
+	font-size: 2rem;
+
+}
+.box{
+    margin: 0px auto;
+    display: block;
+    transform: scale(2);
+
+
+}
+
+.task, .note{
+	height:2rem;
+	font-size: 1.5rem;
+    	font-weight: bold;
+
+}
+
+
+#hiddenArea .note,#hiddenArea .task{
+	display:none;
+
+}
+
+#hidden{
+	display:none;
+	position: absolute;
+    	top: 0;
+
+
+}
+
+a{
+	text-decoration:none;
+
+}
+.clear{
+	width:unset;
+
+}
+.clear:hover, button:hover{
+	background-color:rgba(144,21,136,1);
+	color: white;
+
+}
